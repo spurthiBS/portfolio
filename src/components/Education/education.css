@@ -1,0 +1,96 @@
+
+.exp-skill-cards {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    background-color:var(--color-bg-variant);
+    border-radius: 20px;
+}
+
+.exp-con{
+    color:white;
+    padding:20px;
+}
+.skill-con{
+    background-color: white;
+    border-radius: 20px;
+}
+.exp-skill-cards{
+    color: var(--color-primary);
+}
+
+/* .edu-sec{
+    background-color:var(--color-primary);
+    padding:5px;
+    border-radius:20px;
+    text-align:center;
+} */
+
+section .education{
+    margin-top:6rem;
+}
+
+
+ 
+.skill-con{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+    text-align: left;
+}
+
+.sk{
+    background-color: var(--color-bg-variant);
+    padding: 8px;
+    border-radius: 6px;
+    color:white;
+    transition: all 400ms ease;
+
+
+}
+.sk-headline {
+    color: white;
+    padding: 10px;
+}
+
+.sk:hover{
+    background-color: transparent;
+    border:1px solid var(--color-primary);
+    color:var(--color-bg-variant);
+    cursor: pointer;
+
+}
+.skills-set{
+    line-height: 45px;
+
+}
+
+/*==========stepper css start here==============*/
+.edu-stepper{
+    text-align:left;
+}
+/*==========stepper css ends here===============*/
+
+/*====================MEDIA QUERIES (MEDIUM DEVICE)========*/
+@media screen and (max-width:1024px) {
+.skill-con {
+    padding:11px;
+    font-size:12px;
+}
+.exp-con{
+    padding:15px;
+}
+   
+}
+
+/*====================MEDIA QUERIES (SMALL DEVICE)========*/
+@media screen and (max-width:600px) {
+    .exp-skill-cards{
+        display:grid;
+        grid-template-columns:100%;
+    }
+    
+   
+    
+
+}

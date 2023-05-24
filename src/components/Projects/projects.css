@@ -1,0 +1,51 @@
+.pronames{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap:5%;
+}
+
+.pro1 {
+    background-color: var(--color-bg-variant);
+    padding: 15px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    transition: var(--transition);
+}
+
+.pro1:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+
+}
+
+.github-btn{
+    padding-top: 20px;
+}
+
+/*====================MEDIA QUERIES (MEDIUM DEVICE)========*/
+@media screen and (max-width:1024px) {
+    .pronames{
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+     
+    
+
+}
+
+/*====================MEDIA QUERIES (SMALL DEVICE)========*/
+@media screen and (max-width:600px) {
+    .pronames{
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+  
+
+   
+
+    
+
+}

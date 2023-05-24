@@ -1,0 +1,91 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    gap:10%;
+}
+
+.about-me {
+    width:100%;
+    aspect-ratio:1/1;
+    background: linear-gradient(45deg,transparent,
+    var(--color-primary),transparent);
+    border-radius: 2rem;
+    display: grid;
+    place-items:center;
+}
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition:var(--transition);
+}
+
+.about__me-image:hover {
+    
+    transform: rotate(0);
+    transition:var(--transition);
+
+
+  
+}
+.disc-start {
+    margin-top:25px;
+}
+
+.aboutme-disc-main{
+    margin-top: 15px;
+}
+
+/* .about__cards {
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    gap:10%;
+} */
+
+.lets-talk-btn {
+    margin-top:20px;
+}
+
+
+/*====================MEDIA QUERIES (MEDIUM DEVICE)========*/
+@media screen and (max-width:1024px) {
+    .about_container {
+        grid-template-columns:1fr;
+        gap:0;
+    }
+    
+    .about-me{
+        width:50%;
+        margin:2rem auto 4rem;
+    }
+
+    .aboutme-disc-main p {
+        margin:1rem 0 1.5rem;
+    }
+   
+}
+
+/*====================MEDIA QUERIES (SMALL DEVICE)========*/
+@media screen and (max-width:600px) {
+   
+    .about-me{
+        width:50%;
+        margin:0 auto 2rem;
+    }
+
+    .aboutme-disc-main p {
+        text-align:center;
+        margin:0 0 0;
+        font-size:15px
+       
+    }
+
+    .aboutme-disc-main {
+        margin-top: 15px;
+    }
+    .lets-talk-btn {
+        margin-top: 4px;
+        text-align: center;
+    }
+
+}

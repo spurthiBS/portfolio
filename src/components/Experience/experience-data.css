@@ -1,0 +1,58 @@
+
+.exp-info{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:4%;
+    /* direction:column; */
+    
+}
+
+.align{
+    width:50%;
+    text-align:center;
+}
+
+.expcard-info{
+    background-color: var(--color-bg-variant);
+    border:1px solid transparent;
+    text-align:center;
+    padding: 20px;
+    border-radius: 50px;
+    transition: all 400ms ease;
+
+}
+
+.expcard-info:hover {
+    background-color: transparent;
+    border-color:var(--color-primary-variant);
+    
+}
+
+.exp-icon {
+    color: var(--color-primary);
+}
+
+
+
+/*====================MEDIA QUERIES (MEDIUM DEVICE)========*/
+@media screen and (max-width:1024px) {
+    div#experience\ sec{
+        margin-bottom:230px;
+
+    }
+    }
+
+/*====================MEDIA QUERIES (SMALL DEVICE)========*/
+ @media screen and (max-width:600px) {
+    
+       
+    .header__socials,
+    .scroll__down {
+        display:none;
+
+    }
+    a.btn{
+      padding:10px;
+    }
+ 
+ }
